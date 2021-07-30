@@ -115,7 +115,7 @@ A typical product (SaaS, etc.) usually consists of following services:
   - Android Studio (for Android) (latest)
   - Follow [React Native Guide](https://facebook.github.io/react-native/docs/getting-started) to setup your local machine
 
-- Clone repository `git clone git@github.com:atulmy/fullstack-javascript-architecture.git fullstack`
+- Clone repository `git clone https://github.com/ukohae/full-stack-application.git`
 
 - **API**
 
@@ -184,7 +184,7 @@ A typical product (SaaS, etc.) usually consists of following services:
   - Deploy code
     1. Login to the server (SSH)
     2. Create a new directory on server: `mkdir /var/www/fullstack` and switch to the directory `cd /var/www/fullstack`
-    3. Clone repository `git clone git@github.com:atulmy/fullstack-javascript-architecture.git .`
+    3. Clone repository `git clone https://github.com/ukohae/full-stack-application.git .`
     4. Switch to `deployment` directory `cd deployment`
     5. Build containers `docker-compose up --build -d`
        - `up` = Builds, (re)creates, starts, and attaches to containers for a service.
