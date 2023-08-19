@@ -27,6 +27,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        working-directory: ./frontend/landing
 
     - name: Change directory to ./frontend/landing
       run: cd ./frontend/landing
